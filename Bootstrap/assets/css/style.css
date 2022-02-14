@@ -1,0 +1,32 @@
+#quemSomos h1, p {
+    margin-top: 3vh;
+}
+
+#home img {
+    height: 50vh;
+}
+
+.quemSomosCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+h4 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    height: 4vh;
+    background-color: #272727;
+}
+
+.carousel {
+    margin-top: 6vh;
+}
