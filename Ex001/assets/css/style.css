@@ -40,7 +40,7 @@ main {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    padding: 15px;
+    padding: 1vw;
     margin: 15vh 8vh 8vh;
 }
 
@@ -150,6 +150,10 @@ footer {
     font-size: 2vw;
 }
 
+#listaTexto {
+    flex-direction: column;
+    list-style: circle;
+}
 
 
 /* ESTILIZANDO A PÁGINA CONTATO */
@@ -157,12 +161,16 @@ footer {
 .contato {
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 5vh;
+    margin-left: 6vw;
 }
 
 form {
     margin-top: 2vh;
+    border: 1px solid black;
+    padding: 1vw;
+    margin-bottom: 4vh
 }
 
 label {
@@ -170,7 +178,7 @@ label {
 }
 
 input {
-    border-radius: 5px;
+    border-radius: 3vh;
 }
 
 textarea {
