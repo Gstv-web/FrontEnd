@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Gstv-Web</title>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
             <section class="container">
                 <section class="sideContent">
                     <img src="https://github.com/gstv-web.png" class="profilePic" alt="Foto do criador desse conteúdo">
-                    <p class="name">José Gustavo Olveira da Silva</p>
+                    <p class="name">Jos&eacute; Gustavo Oliveira da Silva</p>
                     <p class="profissao">Desenvolvedor Java Jr.</p>
 
                     <section class="iconContainer">
@@ -39,20 +40,20 @@
                     <footer>2022 - Projeto de blog pela Generation Brasil - Todos os direitos livres - 100%
                         Antipilantra. <span id="footerIcon"><img src="./assets/images/antifa.png"
                                 class="iconFooter"></span>
-                    </footer>
-                </section>
-                <section class="content">
-                    <header>
-                        <nav>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#contato">Contato</a></li>
-                                <li><a href="https://medium.com/@gstveumemo" target="blank">Medium</a></li>
-                            </ul>
-                        </nav>
-                    </header>
-                    <section id="sobreMim">
-                        <h1> Sobre Mim</h1>
+                            </footer>
+                        </section>
+                        <section class="content">
+                            <header id="home">
+                                <nav>
+                                    <ul>
+                                        <li><a href="#home">Home</a></li>
+                                        <li><a href="#contato">Contato</a></li>
+                                        <li><a href="https://medium.com/@gstveumemo" target="blank">Medium</a></li>
+                                    </ul>
+                                </nav>
+                            </header>
+                            <section id="sobreMim">
+                                <h1> Sobre Mim</h1>
                         <p class="texto">
                             &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;Uma
                             pessoa curiosa em saber como as coisas funcionam, mesmo que n&atilde;o me agregue em nada.
@@ -76,12 +77,13 @@
                         </ul>
                         <p class="texto">
                             &ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;Possuo
-                            também conhecimentos em Git e Python, este último com inten&ccedil;&otilde;es de estudar
+                            também conhecimentos em Git, Javascript e Python, este último com inten&ccedil;&otilde;es de estudar
                             mais sobre inteligência artificial.</p>
                         <p class="texto">Sou uma pessoa que gosta de resolver problemas e que gosta de trabalhar em
                             equipe pra alcan&ccedil;ar um objetivo em comum e que procura estar em constante
                             evolu&ccedil;&atilde;o. Sigo na luta para tentar fazer um mundo melhor por meio da
-                            tecnologia.</p>
+                            tecnologia.</p><br>
+                        <p class="texto">&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;&ThickSpace;Este site tem como objetivo ser um porti&oacute;lio e uma rede de contato para freelances e estar&aacute; em constante transforma&ccedil;&atilde;o, sendo assim, fico aberto &agrave; feedbacks em rela&ccedil;&atilde;o ao site.</p>
 
                     </section>
 
@@ -99,7 +101,7 @@
                         
                         <h2 class="headForm">Entre em contato comigo!</h2>
                         <form>
-
+                            
                             <label for="nome">Nome:</label><br>
                             <input type="text" id="nome">
                             <br>
@@ -113,7 +115,7 @@
                             <div id="counter"></div>
                             <br>
                             <br>
-                            <button onclick="clickBtn()">Enviar</button>
+                            <button class="enviar" onclick="clickBtn()">Enviar</button>
                         </form>
                         <h2>Endereço:</h2>
                         <p>Avenida Nicolau Jacinto, 685, São Paulo/SP.</p>
@@ -125,6 +127,9 @@
 
                 </section>
 
+                <div class="botao">
+                    <p class="topo"><a href="#home"><img class="seta" src="./assets/images/seta.png"></a></p>
+                </div>
             </section>
 
         </section>

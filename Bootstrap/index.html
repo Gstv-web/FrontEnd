@@ -83,8 +83,8 @@
             convívio de todos os envolvidos nas celebrações.</p>
 
         <h4>Formatura da turma 2012</h4>
-        <iframe class="shadow-lb" width="560" height="315" src="https://www.youtube.com/embed/68mMUqCtQMw" title="YouTube video player"
-            frameborder="0"
+        <iframe class="shadow-lb" width="560" height="315" src="https://www.youtube.com/embed/68mMUqCtQMw"
+            title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
     </div>
@@ -151,10 +151,11 @@
                 <div class="card-body">
                     <h5 class="card-title">Wesley, 26</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Turma de 2015</h6>
-                    <p class="card-text"><i>"Já quebrei meu pulso duas vezes e sempre me machucava tentando dar stage dive.
-                        Na
-                        Jump Right aprendi a reparar se o show tava vazio antes e não deixar que a adrenalina tome
-                        conta."</i>
+                    <p class="card-text"><i>"Já quebrei meu pulso duas vezes e sempre me machucava tentando dar stage
+                            dive.
+                            Na
+                            Jump Right aprendi a reparar se o show tava vazio antes e não deixar que a adrenalina tome
+                            conta."</i>
                     </p>
                 </div>
             </div>
@@ -163,7 +164,7 @@
                     <h5 class="card-title">Juninho, 22</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Turma de 2014</h6>
                     <p class="card-text"><i>"A Jump Right me ensinou a ser mais empático e agora eu sempre tiro meu jaco
-                        cheio de prego antes de pular."</i>
+                            cheio de prego antes de pular."</i>
                     </p>
                 </div>
             </div>
@@ -171,7 +172,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Sabrina, 22</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Turma de 2019</h6>
-                    <p class="card-text"><i>"Jump Right me ensinou a ser mais cuidadosa, hoje não pulo mais em pé!"</i>   
+                    <p class="card-text"><i>"A Jump Right me ensinou a ser mais cuidadosa, hoje não pulo mais em pé e nem no final da música."</i>
                     </p>
                 </div>
             </div>
@@ -179,20 +180,28 @@
     </div>
     <div class="container d-flex flex-column align-items-center" id="contato">
         <h4>Faça um orçamento com a gente!</h4>
-        <form>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Nome: </label>
-              <input type="text" class="form-control" id="exampleFormControlInput1">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com"><br>
-                <button type="submit" class="btn btn-secondary">Enviar</button>
-              </div>
-        </form>
-            </div>
-            <footer class="navbar-dark"> asdssdsadd</footer>
+        <form class="d-flex flex-column w-50">
+            <label for="nome">Nome: </label>
+            <input type="text" class="form-control" id="nome" onkeyup="validaNome()"><div id="txtNome"></div>
 
+
+            <label for="email">Endereço de email:</label>
+            <input type="email" class="form-control" id="email" placeholder="exemplo@email.com" onkeyup="validaEmail()">
+            <div id="txtEmail"></div>
+
+            <label for="textarea">Coloque suas dúvidas, caso deseje: </label>
+            <textarea id="textarea" onkeyup="validaAssunto()"></textarea>
+            <div id="counter"></div><br>
+            <button type="submit" onclick="enviar()" class="btn btn-secondary">Enviar</button>
+
+        </form>
+    </div>
+    <footer class="container-fluid"><div class="icons">
+        <a href="https://www.instagram.com/acho.que.nao.sei/"><img src="./assets/images/png/bxl-instagram.png"></a>
+        <a href="https://gstveumemo.medium.com/"><img src="./assets/images/png/bxl-medium-square.png"></a>
+        <a href="https://www.linkedin.com/in/jgustavooliveira/"><img src="./assets/images/png/bxl-linkedin-square.png"></a></div>2022 - Todos os direitos inexistentes - Execício de HTML e CSS usando Bootstrap - Generation Brasil</footer>
+
+    <script src="/assets/scripts/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>

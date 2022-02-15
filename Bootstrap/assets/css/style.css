@@ -30,3 +30,11 @@ footer {
 .carousel {
     margin-top: 6vh;
 }
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #FFFFFF;
+}

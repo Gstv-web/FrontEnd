@@ -10,6 +10,7 @@
     font-family: 'Roboto', 'sans-serif';
 }
 
+
 main {
     min-height: 95vh;
 }
@@ -45,8 +46,8 @@ main {
 }
 
 .iconContainer:hover {
-    box-shadow: 1px 1px 25px 20px #541212;
-    transition: 0.5s;
+    box-shadow: 0vh 0vw 25px 20px #541212;
+    transition: 0.8s;
 }
 
 .icon {
@@ -78,11 +79,13 @@ main {
     margin: 15vh auto auto;
 
 }
-    
+
 header {
     border-bottom: 1px solid black;
     margin-bottom: 5vh;
     margin-left: 5vw;
+    display: flex;
+    justify-content: flex-end;
 }
 
 ul {
@@ -155,6 +158,24 @@ footer {
     list-style: circle;
 }
 
+.botao {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-bottom: 1vh;
+    margin-right: 1vw;
+}
+
+.topo {
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px
+}
+
+.seta {
+    width: 2vw;
+}
 
 /* ESTILIZANDO A PÁGINA CONTATO */
 
@@ -185,7 +206,7 @@ textarea {
     border-radius: 5px;
 }
 
-button {
+.enviar {
     width: 8vh;
     height: 3vh;
     border-radius: 5px;
